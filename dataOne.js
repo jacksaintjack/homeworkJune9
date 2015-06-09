@@ -1,4 +1,4 @@
-{
+var gitUser = [{
   "login": "jacksaintjack",
   "id": 9700459,
   "avatar_url": "https://avatars.githubusercontent.com/u/9700459?v=3",
@@ -29,4 +29,4 @@
   "following": 0,
   "created_at": "2014-11-12T17:40:45Z",
   "updated_at": "2015-05-21T19:47:44Z"
-}
+}]

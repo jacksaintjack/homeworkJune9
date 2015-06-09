@@ -4,9 +4,18 @@
   <meta charset="UTF-8">
   <title>Homework for June 9th</title>
   <link rel= "stylesheet" href="bower_components/octicons/octicons/octicons.css">
-  <link rel= "stylesheet" href= "bower_components/fontawesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+  <link rel= "stylesheet" href="bower_components/underscore/underscore.js">
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+
+  <script type="text/template" id="sideTmpl">
+    <img class ="sidePicture" src= "<%= avatar %>">
+    <h1 class ="leftColumnText">
+      <span class ="name"> <%= name %> </span>
+      <span class ="userName"> <%= login %> <span>
+    <h1>
+  </script>
+
 </head>
 <body>
   <div class ="container-flex topBar">
@@ -44,8 +53,12 @@
   </div>
 
 <!-- Start of main container -->
-  <div class = "container">
+
+  <div class = "container-fluid">
+    <div  class= "leftColumn">
+    </div>
   </div>
+
 
 
 
